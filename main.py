@@ -2,7 +2,7 @@
 
 
 def main():
-    print("Foo bar baz")
+    print("Hello, world!")
 
 
 if __name__ == '__main__':
