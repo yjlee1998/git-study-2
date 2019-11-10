@@ -20,12 +20,16 @@
 
 # 기본 작업 (브랜치: master)
 
+기본적인 git 사용 방법입니다. (1차 내용 복습)
+
 - main.py 수정
 - git add main.py
 - git commit
 - git push
 
 # hotfix 브랜치 작업
+
+기능 추가 혹은 버그 수정을 위한 브랜치를 만들고, 그 브랜치에서 작업합니다.
 
 - git checkout -b hotfix
 - main.py 수정
@@ -40,7 +44,7 @@
 - 충돌 병합
 - git branch -d hotfix
 
-# 개발 브랜치
+# rebase
 
 - git checkout dev
 - git rebase master
